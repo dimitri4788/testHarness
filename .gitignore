@@ -1,0 +1,8 @@
+env
+env/*
+*.pyc
+
+dist/*
+dist
+files.txt
+testharness.egg-info/*

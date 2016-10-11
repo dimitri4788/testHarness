@@ -1,6 +1,6 @@
 Test Harness
 ============
-It is a collection of software and test data configurations to test your --- ZeroMQ based server application --- that is by running it under varying conditions and monitoring its outputs. It is easily scalable to add more test cases.  
+It is a collection of software and test data configurations to test your --- *ZeroMQ based server application* --- that is by running it under varying conditions and monitoring its outputs. It is easily scalable to add more test cases.  
 
 The typical objectives here are to:  
 - Automate the testing process  
