@@ -13,7 +13,6 @@ It provides the following benefits:
 - Increased probability that regression testing will occur  
 - Increased quality of software components and application  
 
-<br>
 
 Dependencies
 ------------
@@ -23,7 +22,6 @@ Dependencies
 
 Follow below instructions to install the libraries.
 
-<br>
 
 Installation
 ------------
@@ -65,7 +63,6 @@ $ cat files.txt | xargs rm -rf
 $ pip freeze > requirements.txt
 ```
 
-<br>
 
 How to run it
 -------------
@@ -84,13 +81,11 @@ $ harness -c <path-to-config-file>
 $ harness
 ```
 
-<br>
 
 Adding more tests
 -----------------
 - Add more tests by updating description and definition in **description.md** and **definitions.py** respectively.
 
-<br>
 
 Author
 ------
