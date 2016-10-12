@@ -32,7 +32,8 @@ class Client():
         self._socket = self._context.socket(self.socketType)
 
         # The client must know the server's public key to make a CURVE connection.
-        # FIXME: These should not be hardcoded; you should change this
+        # FIXME: These should not be hardcoded; you should change this by moving
+        #        these ta a certificate directory and reading them from there
         self._socket.curve_secretkey = "pJ9TH5i:.<13*2aM:nx}Es83SRyaPD?rD$Sb@0&7"
         self._socket.curve_publickey = "qT>h?AgefUrapaz83<Z6K)S{0sB)?VH:6P#!72vi"
         self._socket.curve_serverkey = "9x:/U@Ypd+1l@&H1Te{exRPUO.i:(S+/WH.Stv3T"

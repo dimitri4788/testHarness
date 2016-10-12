@@ -84,7 +84,7 @@ $ harness
 
 Adding more tests
 -----------------
-- Add more tests by updating description and definition in **description.md** and **definitions.py** respectively.
+- Add more tests by updating definitions **definitions.py**.
 
 
 Author
